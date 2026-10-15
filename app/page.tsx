@@ -161,6 +161,14 @@ export default function Home() {
             <p className="project-tech">
               <strong>Technologies:</strong> Next.js, React, TypeScript, CSS
             </p>
+
+            <a
+              href="https://my-portfolio-rho-six-51.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              Check it Out</a>
           </div>
 
         </div>
