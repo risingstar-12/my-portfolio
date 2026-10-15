@@ -100,79 +100,119 @@ export default function Home() {
 
       {/* Projects */}
 
-      <section id="projects" className="projects-section">
-        <h2>Projects</h2>
+      
+    <section id="projects" className="projects-section">
+      <h2>Projects</h2>
 
-        <div className="projects-container">
+      <div className="projects-container">
 
-     
-          <div className="project-card">
-            <h3>Snake Game</h3>
+        {/* Snake Game */}
+        <div className="project-card">
+          <h3>Snake Game</h3>
 
-            <p>
-              An interactive Snake Game built with React, featuring keyboard and
-              mobile controls, score tracking, pause and resume, difficulty levels,
-              and sound effects.
-            </p>
+          <p>
+            An interactive Snake Game built with React, featuring keyboard and
+            mobile controls, score tracking, pause and resume, difficulty levels,
+            and sound effects.
+          </p>
 
-            <p className="project-tech">
-              <strong>Technologies:</strong> React, JavaScript, CSS, Vite
-            </p>
+          <p className="project-tech">
+            <strong>Technologies:</strong> React, JavaScript, CSS, Vite
+          </p>
 
-            <a
-              href="https://snake-game-amber-five.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              Play Game
-            </a>
-          </div>
+          <a
+            href="https://snake-game-amber-five.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            Live Demo
+          </a>
 
-          <div className="project-card">
-            <h3>Ecommerce Web Application</h3>
+          <br />
 
-            <p>
-              A full-stack eCommerce application with product listing,
-              product details, authentication, cart and checkout features.
-            </p>
-
-            <p className="project-tech">
-              <strong>Technologies:</strong> React, Redux Toolkit, Python,
-              Django REST Framework, PostgreSQL
-            </p>
-
-            <a
-              href="https://ecommerce-fullstack-theta-coral.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >Check it Out</a>
-          </div>
-
-          <div className="project-card">
-            <h3>Personal Portfolio Website</h3>
-
-            <p>
-              A responsive personal portfolio website to showcase my skills,
-              education, experience and projects.
-            </p>
-
-            <p className="project-tech">
-              <strong>Technologies:</strong> Next.js, React, TypeScript, CSS
-            </p>
-
-            <a
-              href="https://my-portfolio-rho-six-51.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              Check it Out</a>
-          </div>
-
+          <a
+            href="https://github.com/risingstar-12/snake-game"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            View GitHub
+          </a>
         </div>
-</section>
+
+        {/* Ecommerce Web Application */}
+        <div className="project-card">
+          <h3>Ecommerce Web Application</h3>
+
+          <p>
+            A full-stack eCommerce application with product listing,
+            product details, authentication, cart and checkout features.
+          </p>
+
+          <p className="project-tech">
+            <strong>Technologies:</strong> React, Redux Toolkit, Python,
+            Django REST Framework, PostgreSQL
+          </p>
+
+          <a
+            href="https://ecommerce-fullstack-theta-coral.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            Live Demo
+          </a>
+
+          <br />
+
+          <a
+            href="https://github.com/risingstar-12/Ecommerce-fullstack"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            View GitHub
+          </a>
+        </div>
+
+        {/* Personal Portfolio Website */}
+        <div className="project-card">
+          <h3>Personal Portfolio Website</h3>
+
+          <p>
+            A responsive personal portfolio website to showcase my skills,
+            education, experience and projects.
+          </p>
+
+          <p className="project-tech">
+            <strong>Technologies:</strong> Next.js, React, TypeScript, CSS
+          </p>
+
+          <a
+            href="https://my-portfolio-rho-six-51.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            Live Demo
+          </a>
+
+          <br />
+
+          <a
+            href="https://github.com/risingstar-12/my-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            View GitHub
+          </a>
+        </div>
+
+      </div>
+    </section>
+
 
       {/* Experience Section */}
    
